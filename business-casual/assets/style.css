@@ -1,0 +1,161 @@
+a:visited {
+    color: inherit;
+  }
+  body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header {
+    max-width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header h5 {
+    color: #e6a756;
+    font-size: 30px;
+  }
+  .header p {
+    color: #f6e1c5;
+    font-size: 80px;
+    font-weight: lighter;
+  }
+  
+  nav {
+    max-width: 100%;
+    background-color: rgba(47, 23, 15, 0.8705882353);
+  }
+  nav .nav {
+    max-width: 70vw;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  nav .nav ul {
+    display: flex;
+    gap: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  nav .nav ul li {
+    transition: 300ms;
+    color: white;
+  }
+  nav .nav ul li:hover {
+    color: rgb(169, 169, 169);
+  }
+  
+  #main-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .main-page {
+    position: relative;
+    max-width: 100vw;
+    min-height: 70vh;
+  }
+  .main-page .image {
+    max-width: 900px;
+  }
+  .main-page .image img {
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+  }
+  .main-page .FRESH_COFFEE {
+    position: absolute;
+    top: 10%;
+    left: -30%;
+    width: 55%;
+    height: 48%;
+    position: absolute;
+    background-color: #f6e1c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    flex-direction: column;
+    border-radius: 7px;
+  }
+.FRESH_COFFEE h4 {
+    font-size: 15px;
+  }
+.FRESH_COFFEE span {
+    padding-bottom: 35px;
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(48, 48, 48);
+  }
+.FRESH_COFFEE p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+  }
+.FRESH_COFFEE button {
+    position: absolute;
+    bottom: -12%;
+    left: 35%;
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #e6a756;
+    transition: 300ms;
+    cursor: pointer;
+  }
+.FRESH_COFFEE button:hover {
+    background-color: #e3b578;
+  }
+  
+  #to_you {
+    margin-top: 50px;
+    max-width: 100%;
+    background-color: #e6a756;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+  }
+.to_you {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6e1c5;
+    border-radius: 8px;
+    padding: 50px;
+  }
+.to_you h6 {
+    font-weight: bold;
+    font-size: 14px;
+  }
+.to_you span {
+    font-size: 50px;
+    font-weight: 100;
+  }
+.to_you p {
+    padding-top: 15 px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgba(47, 23, 15, 0.8705882353);
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    color: white;
+  }
